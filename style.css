@@ -1,17 +1,20 @@
 body{
 	scroll-behavior: smooth;
 }
+
+.first_part {padding: 10px 0 100px 0;}
+
 .hearder_part {
 	background: url(./home_bg.png);
-	padding: 200px;
+	/* padding: 200px; */
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 100px;
 }
 /* header 1st part */
 .logo_part {
-	line-height: 79px;
-	margin-top: -63%;
+	/* line-height: 79px; */
+	/* margin-top: -63%; */
 	padding: 3;
 	padding: 0 18%;
 }
@@ -20,9 +23,9 @@ body{
 }
    
 .menu_part {
-	line-height: 64px;
+	/* line-height: 64px; */
 	margin-left: 63px;
-	margin-top: -41%;
+	/* margin-top: -41%; */
 }  
 .menu_part ul {
     list-style: none;
@@ -55,13 +58,16 @@ body{
 	width: 100%;
 }
    
+.second_part {
+	padding: 0 40px ;
+}
+
 .h-button {
 	background-color: red;
 	width: 100px;
 	padding: 10px 10px;
 	border-radius: 25px;
 	margin-left: 3px;
-	margin-top: -118%;
 	transition: all 0.4s;
 }
 .h-button a {
